@@ -1,10 +1,54 @@
 {
-    "name":"Greendayy",
-    "avatar":"githubimage",
-    "links":[
-        {
-            "title":"Twitter",
-            "url":"https://github.com/Greendayy"
-        }
-    ]
+  "name": "Greendayy",
+  "links": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Greendayy"
+    },
+    {
+      "title": "Tic-Tac-Toe",
+      "url": "https://tic-tac-toe-greendayy.vercel.app",
+      "image": "blob:https://vercel.com/12b0a608-5c30-404e-b7b1-07dba222d868"
+    },
+    {
+      "title": "React-Info-Site",
+      "url": "https://a-react-info-site-practice.vercel.app",
+      "image": "blob:https://vercel.com/a99f81a0-9826-4f8f-bc0c-8ef89f090325"
+    },
+    {
+      "title": "Airbnb-Experiences",
+      "url": "https://build-an-air-bnb-experiences-clone.vercel.app",
+      "image": "blob:https://vercel.com/25f9bbdd-6bd6-402b-a008-d181a2ed3031"
+    },
+    {
+      "title": "Meme-Generator",
+      "url": "https://meme-generator-clone.vercel.app",
+      "image": "blob:https://vercel.com/86c9a963-1aba-48ec-bb5b-079a78dab7eb"
+    },
+    {
+      "title": "Notes",
+      "url": "https://notes-app-clone.vercel.app",
+      "image": "blob:https://vercel.com/fbd2527d-4155-41ed-a137-f883f2cbeffd"
+    },
+    {
+      "title": "Tenzies",
+      "url": "https://tenzies-clone.vercel.app",
+      "image": "blob:https://vercel.com/d3799bd0-3ca8-4235-8ccd-86d693774103"
+    },
+    {
+      "title": "Starter",
+      "url": "https://starter-opal.vercel.app",
+      "image": "blob:https://vercel.com/05d106d5-4486-4e34-b174-1acad6f964c2"
+    },
+    {
+      "title": "Fast-Feedback",
+      "url": "https://fatfeedback.vercel.app",
+      "image": "blob:https://vercel.com/cdbfdd7b-24ca-4956-83ba-beecb1ae1204"
+    },
+    {
+      "title": "Mortgage-Calculator",
+      "url": "https://nextjs-calc-demo.vercel.app",
+      "image": "blob:https://vercel.com/143ae8eb-85e8-4a91-b9dc-95940dbc88df"
+    }
+  ]
 }
