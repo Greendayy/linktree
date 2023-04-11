@@ -63,9 +63,6 @@ export default function Home() {
   }
   return (
     <>
-      <header>
-        <title>Greendayy's Linktree</title>
-      </header>
       <div className="flex items-center flex-col mx-auto w-full justify-center mt-16 px-8">
         <Image
           priority
