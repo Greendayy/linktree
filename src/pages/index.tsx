@@ -62,24 +62,29 @@ export default function Home() {
     );
   }
   return (
-    <div className="flex items-center flex-col mx-auto w-full justify-center mt-16 px-8">
-      <Image
-        priority
-        className="rounded-full"
-        alt={data.name}
-        src={avatar}
-        width={96}
-        height={96}
-      />
-      <h1 className="font-bold mt-4 mb-8 text-xl text-white">{data.name}</h1>
-      {data.links.map((link) => (
-        <LinkCard key={link.href} {...link} />
-      ))}
-      <div className="flex items-center my-8 text-white">
-        <a href="https://github.com/Greendayy" target="_blank">
-          <GitHubIcon />
-        </a>
+    <>
+      <header>
+        <title>Greendayy's Linktree</title>
+      </header>
+      <div className="flex items-center flex-col mx-auto w-full justify-center mt-16 px-8">
+        <Image
+          priority
+          className="rounded-full"
+          alt={data.name}
+          src={avatar}
+          width={96}
+          height={96}
+        />
+        <h1 className="font-bold mt-4 mb-8 text-xl text-white">{data.name}</h1>
+        {data.links.map((link) => (
+          <LinkCard key={link.href} {...link} />
+        ))}
+        <div className="flex items-center my-8 text-white">
+          <a href="https://github.com/Greendayy" target="_blank">
+            <GitHubIcon />
+          </a>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
